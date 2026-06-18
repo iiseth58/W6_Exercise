@@ -18,7 +18,6 @@ final List<String> jokes = [
   "hi",
 ];
 
-// PARENT
 class FavoriteCardsScreen extends StatefulWidget {
   const FavoriteCardsScreen({super.key});
 
@@ -59,7 +58,6 @@ class FavoriteCardsScreenState extends State<FavoriteCardsScreen> {
   }
 }
 
-// CHILD
 class FavoriteCard extends StatelessWidget {
   final String jokeText;
   final bool isFavorite;
